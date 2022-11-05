@@ -29,3 +29,15 @@ h2 {
   width: 190px;
   height: 80px;
 }
+
+#sjogador{
+  display: grid;
+  margin: auto;
+  text-align: center;
+  grid-gap: 1px;
+  width: 190px;
+  grid-template-columns: 120px 40px ;
+  
+  
+}
+

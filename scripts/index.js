@@ -2,6 +2,13 @@ let gammer = "X";
 let winner = false;
 let gameOver = false;
 
+
+
+function opjogador(currentGammer) {
+  gammer = currentGammer.value;
+}
+
+
 function checkWinner() {
   let elements = document.getElementById("container").children;
   if (
@@ -120,3 +127,10 @@ function mark(element) {
     }
   }
 }
+
+
+
+
+
+
+
